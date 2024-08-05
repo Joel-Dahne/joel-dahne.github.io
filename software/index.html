@@ -8,23 +8,16 @@
     <meta name="author" content='Joel Dahne'>
 
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/css/bootstrap.min.css" integrity="sha512-rt/SrQ4UNIaGfDyEXZtNcyWvQeOq0QLygHluFQcSjaGB04IxWhal71tKuzP6K8eYXYB6vJV4pHkXcmFGGQ1/0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.3/css/academicons.min.css" integrity="sha512-vaoopdl+FJahyY2ddhsbDj8yDiRuyUYH/vIjF3z+cBg0sKc07NAQmUYli8volCGlW9OwlQyjVsr7Lh6qAManlw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/sass/researcher.min.css">
-
-    
-        <link rel="icon" type="image/ico" href="https://dahne.eu/favicon.ico">
-    
-
-    
-        
-    
-</head>
+    <link rel="icon" type="image/ico" href="https://dahne.eu/favicon.ico">
+    </head>
 
     <body><div class="container mt-5">
     <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
-        <a class="navbar-brand mx-0 mr-sm-auto" href="https://dahne.eu" title="Joel Dahne">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://dahne.eu/" title="Joel Dahne">
           
           Joel Dahne
         </a>
@@ -63,63 +56,71 @@ programming language and most of the software I produce tends to be
 different kinds of Julia packages. You can find most of my packages on
 <a href="https://github.com/Joel-Dahne">GitHub</a>, some of the more important
 ones are also listed below.</p>
-<h1 id="arblibjlhttpsgithubcomkalmarekarblibjl"><a href="https://github.com/kalmarek/Arblib.jl">Arblib.jl</a></h1>
+<h1 id="general-purpose-packages">General purpose packages</h1>
+<p>These packages are intended to be used in multiple settings and could
+potentially be useful for other people as well.</p>
+<h2 id="arblibjlhttpsgithubcomkalmarekarblibjl"><a href="https://github.com/kalmarek/Arblib.jl">Arblib.jl</a></h2>
 <p>Arblib is a Julia package in the public repository which aims to be a
 thin and efficient wrapper around <a href="https://www.arblib.org/">Arb</a> - a C
 library for arbitrary-precision ball arithmetic. I&rsquo;m one of the main
 developers, together with Marek Kaluba and Sascha Timme.</p>
-<h1 id="arbextrasjlhttpsgithubcomjoel-dahnearbextrasjl"><a href="https://github.com/Joel-Dahne/ArbExtras.jl">ArbExtras.jl</a></h1>
-<p>ArbExtras is a Julia package that extends Arblib with basic tools for
-rigorous numerics that I found useful in many of my projects. Among
-other things it contains methods for isolating roots and computing
-extrema of functions. It is not in the public Julia repository and
-there is currently no general documentation, though individual methods
-are usually well documented.</p>
-<h1 id="methodofparticularsolutionsjlhttpsgithubcomjoel-dahnemethodofparticularsolutionsjl"><a href="https://github.com/Joel-Dahne/MethodOfParticularSolutions.jl">MethodOfParticularSolutions.jl</a></h1>
-<figure class="avatar"><img src="/methodofparticularsolution.jpg"
-         alt="L-shaped domain"/>
+<h2 id="arbextrasjlhttpsgithubcomjoel-dahnearbextrasjl"><a href="https://github.com/Joel-Dahne/ArbExtras.jl">ArbExtras.jl</a></h2>
+<p>ArbExtras is a Julia package in the public repository that extends
+Arblib with basic tools for rigorous numerics that I found useful in
+many of my projects. Among other things it contains methods enclosing
+roots, enclosing extrema and computing integrals.</p>
+<h1 id="project-specific-packages">Project specific packages</h1>
+<p>These packages were developed specifically for one, or possibly a few,
+projects. They generally have an accompanying paper which gives the
+context.</p>
+<h2 id="highestcuspedwavejlhttpsgithubcomjoel-dahnehighestcuspedwavejl"><a href="https://github.com/Joel-Dahne/HighestCuspedWave.jl">HighestCuspedWave.jl</a></h2>
+<p>The computer assisted proof accompanying the paper</p>
+<p>Dahne, J.. Highest Cusped Waves for the Fractional KdV Equations.
+Journal of Differential Equations, 401, 550-670 (2024).
+[<a href="https://doi.org/10.1016/j.jde.2024.05.016">DOI</a>]</p>
+<h2 id="burgershilbertwavejlhttpsgithubcomjoel-dahneburgershilbertwavejl"><a href="https://github.com/Joel-Dahne/BurgersHilbertWave.jl">BurgersHilbertWave.jl</a></h2>
+<p>The computer assisted proof accompanying the paper</p>
+<p>Dahne, J. &amp; Gómez-Serrano, J.. Highest Cusped Waves for the
+Burgers-Hilbert Equation. Archive for Rational Mechanics and Analysis,
+247(5) (2023). [<a href="https://doi.org/10.1007/s00205-023-01904-6">DOI</a>]</p>
+<h2 id="paynepolygonjlhttpsgithubcomjoel-dahnepaynepolygonjl"><a href="https://github.com/Joel-Dahne/PaynePolygon.jl">PaynePolygon.jl</a></h2>
+<figure class="avatar"><img src="/paynepolygon.jpg"
+    alt="Counterexample to Payne&#39;s conjecture">
 </figure>
 
-<p>A Julia package for computing eigenvalues and eigenfunctions of the
+<p>The computer assisted proof accompanying the paper</p>
+<p>Dahne, J., Gómez-Serrano, J., &amp; Hou, K.. A counterexample to Payne&rsquo;s
+nodal line conjecture with few holes. Commun. Nonlinear Sci., 103(),
+105957 (2021). [<a href="https://doi.org/10.1016/j.cnsns.2021.105957">DOI</a>]</p>
+<h2 id="methodofparticularsolutionsjlhttpsgithubcomjoel-dahnemethodofparticularsolutionsjl"><a href="https://github.com/Joel-Dahne/MethodOfParticularSolutions.jl">MethodOfParticularSolutions.jl</a></h2>
+<figure class="avatar"><img src="/methodofparticularsolution.jpg"
+    alt="L-shaped domain">
+</figure>
+
+<p>A package for computing eigenvalues and eigenfunctions of the
 Laplacian on planar or spherical domains using the method of
-particular solutions. This package has mainly been written for use in
-specific projects and is not very suitable for general usage.</p>
+particular solutions. Primarily for use in the papers</p>
 <ol>
-<li>Dahne, J., Gómez-Serrano, J., &amp; Hou, K. (2021). A counterexample to
-Payne&rsquo;s nodal line conjecture with few holes. Commun. Nonlinear Sci.,
-103(), 105957.</li>
+<li>Dahne, J., Gómez-Serrano, J., &amp; Hou, K.. A counterexample to
+Payne&rsquo;s nodal line conjecture with few holes. Commun. Nonlinear
+Sci., 103(), 105957 (2021).
+[<a href="https://doi.org/10.1016/j.cnsns.2021.105957">DOI</a>]</li>
 <li>Dahne, J., &amp; Salvy, B., Computation of tight enclosures for
 laplacian eigenvalues, SIAM Journal on Scientific Computing, 42(5),
-3210–3232 (2020).</li>
+3210–3232 (2020). [<a href="https://doi.org/10.1137/20m1326520">DOI</a>]</li>
 </ol>
-<h1 id="paynepolygonjlhttpsgithubcomjoel-dahnepaynepolygonjl"><a href="https://github.com/Joel-Dahne/PaynePolygon.jl">PaynePolygon.jl</a></h1>
-<figure class="avatar"><img src="/paynepolygon.jpg"
-         alt="Counterexample to Payne&#39;s conjecture"/>
-</figure>
-
-<p>The computer assisted proof accompanying the paper</p>
-<p>Dahne, J., Gómez-Serrano, J., &amp; Hou, K. (2021). A counterexample to
-Payne&rsquo;s nodal line conjecture with few holes. Commun. Nonlinear Sci.,
-103(), 105957.</p>
-<h1 id="burgershilbertwavejlhttpsgithubcomjoel-dahneburgershilbertwavejl"><a href="https://github.com/Joel-Dahne/BurgersHilbertWave.jl">BurgersHilbertWave.jl</a></h1>
-<p>The computer assisted proof accompanying the paper</p>
-<p>Dahne, J. &amp; Gómez-Serrano J. (2023). Highest Cusped Waves for the
-Burgers-Hilbert Equation. Archive for Rational Mechanics and Analysis,
-247(5).</p>
-<h1 id="highestcuspedwavejlhttpsgithubcomjoel-dahnehighestcuspedwavejl"><a href="https://github.com/Joel-Dahne/HighestCuspedWave.jl">HighestCuspedWave.jl</a></h1>
-<p>The computer assisted proof accompanying the paper</p>
-<p>Dahne, J. (2023). Highest Cusped Waves for the Fractional KdV
-Equations.</p>
 
 </div>
 
         </div><div id="footer" class="mb-5">
+    <hr>
     
-        <hr>
+    
         <div class="container text-center">
-            <a href="https://dahne.eu" title="By Joel Dahne"><small>By Joel Dahne</small></a>
+            <a href="https://dahne.eu/" title="By Joel Dahne" ><small>By Joel Dahne</small></a>
         </div>
     
 </div>
-</body>
+
+    </body>
 </html>

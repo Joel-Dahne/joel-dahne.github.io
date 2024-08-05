@@ -4,44 +4,29 @@
     <title>Welcome on Joel Dahne</title>
     <link>https://dahne.eu/</link>
     <description>Recent content in Welcome on Joel Dahne</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://dahne.eu/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://dahne.eu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
       <link>https://dahne.eu/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://dahne.eu/contact/</guid>
       <description> Email: joel.dahne@math.uu.se </description>
     </item>
-    
     <item>
       <title>Publications</title>
       <link>https://dahne.eu/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://dahne.eu/publications/</guid>
-      <description>Highest Cusped Waves for the Fractional KdV Equations
-Preprint (2023) [arXiv]
-Highest Cusped Waves for the Burgers-Hilbert Equation
-With J. Gómez-Serrano
-Archive for Rational Mechanics and Analysis, 247, 5 (2023). [arXiv] [DOI]
-A counterexample to Payne&amp;rsquo;s nodal line conjecture with few holes
-With J. Gómez-Serrano and K. Hou.
-Communications in Nonlinear Science and Numerical Simulation, 103, 105957 (2021).
-Special Issue &amp;ldquo;Computer Assisted Proofs in Dynamical Systems&amp;rdquo;. [arXiv] [DOI]
-Computation of tight enclosures for laplacian eigenvalues</description>
+      <description>Highest Cusped Waves for the Fractional KdV Equations&#xA;Journal of Differential Equations, 401, 550-670 (2024). [arXiv] [DOI] [Code]&#xA;Highest Cusped Waves for the Burgers-Hilbert Equation&#xA;With J. Gómez-Serrano&#xA;Archive for Rational Mechanics and Analysis, 247, 5 (2023). [arXiv] [DOI] [Code]&#xA;A counterexample to Payne&amp;rsquo;s nodal line conjecture with few holes&#xA;With J. Gómez-Serrano and K. Hou.&#xA;Communications in Nonlinear Science and Numerical Simulation, 103, 105957 (2021).&#xA;Special Issue &amp;ldquo;Computer Assisted Proofs in Dynamical Systems&amp;rdquo;.</description>
     </item>
-    
     <item>
       <title>Software</title>
       <link>https://dahne.eu/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://dahne.eu/software/</guid>
-      <description>In my research I mostly work with the Julia programming language and most of the software I produce tends to be different kinds of Julia packages. You can find most of my packages on GitHub, some of the more important ones are also listed below.
-Arblib.jl Arblib is a Julia package in the public repository which aims to be a thin and efficient wrapper around Arb - a C library for arbitrary-precision ball arithmetic.</description>
+      <description>In my research I mostly work with the Julia programming language and most of the software I produce tends to be different kinds of Julia packages. You can find most of my packages on GitHub, some of the more important ones are also listed below.&#xA;General purpose packages These packages are intended to be used in multiple settings and could potentially be useful for other people as well.&#xA;Arblib.jl Arblib is a Julia package in the public repository which aims to be a thin and efficient wrapper around Arb - a C library for arbitrary-precision ball arithmetic.</description>
     </item>
-    
   </channel>
 </rss>
