@@ -1,32 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Welcome on Joel Dahne</title>
-    <link>https://dahne.eu/</link>
-    <description>Recent content in Welcome on Joel Dahne</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <atom:link href="https://dahne.eu/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Contact</title>
-      <link>https://dahne.eu/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dahne.eu/contact/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;Email: &lt;a href=&#34;mailto:joel.dahne@math.uu.se&#34;&gt;joel.dahne@math.uu.se&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Publications</title>
-      <link>https://dahne.eu/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dahne.eu/publications/</guid>
-      <description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.48550/arXiv.2601.16285&#34;&gt;Monotonicity of the first Dirichlet eigenvalue of regular&#xA;polygons&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;With J. Gómez-Serrano and J. Pech-Alberich&lt;/p&gt;&#xA;&lt;p&gt;Submitted (2026)&#xA;[&lt;a href=&#34;https://doi.org/10.48550/arXiv.2601.16285&#34;&gt;arXiv&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://github.com/Joel-Dahne/SpectralRegularPolygon.jl&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2410.05480&#34;&gt;Self-Similar Singular Solutions to the Nonlinear Schrödinger and&#xA;the Complex Ginzburg-Landau&#xA;Equations&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;With J-L. Figueras&lt;/p&gt;&#xA;&lt;p&gt;Submitted (2024)&#xA;[&lt;a href=&#34;https://arxiv.org/abs/2410.05480&#34;&gt;arXiv&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://github.com/Joel-Dahne/CGL.jl&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.jde.2024.05.016&#34;&gt;Highest Cusped Waves for the Fractional KdV&#xA;Equations&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Journal of Differential Equations, 401, 550-670 (2024).&#xA;[&lt;a href=&#34;https://arxiv.org/abs/2308.16579&#34;&gt;arXiv&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://doi.org/10.1016/j.jde.2024.05.016&#34;&gt;DOI&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://github.com/Joel-Dahne/HighestCuspedWave.jl&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1007/s00205-023-01904-6&#34;&gt;Highest Cusped Waves for the Burgers-Hilbert&#xA;Equation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;With J. Gómez-Serrano&lt;/p&gt;&#xA;&lt;p&gt;Archive for Rational Mechanics and Analysis, 247, 5 (2023).&#xA;[&lt;a href=&#34;https://arxiv.org/abs/2205.00802&#34;&gt;arXiv&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://doi.org/10.1007/s00205-023-01904-6&#34;&gt;DOI&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://github.com/Joel-Dahne/BurgersHilbertWave.jl&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://dahne.eu/software/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dahne.eu/software/</guid>
-      <description>&lt;p&gt;In my research I mostly work with the &lt;a href=&#34;https://julialang.org/&#34;&gt;Julia&lt;/a&gt;&#xA;programming language and most of the software I produce tends to be&#xA;different kinds of Julia packages. You can find most of my packages on&#xA;&lt;a href=&#34;https://github.com/Joel-Dahne&#34;&gt;GitHub&lt;/a&gt;, some of the more important&#xA;ones are also listed below.&lt;/p&gt;&#xA;&lt;h1 id=&#34;general-purpose-packages&#34;&gt;General purpose packages&lt;/h1&gt;&#xA;&lt;p&gt;These packages are intended to be used in multiple settings and could&#xA;potentially be useful for other people as well.&lt;/p&gt;&#xA;&lt;h2 id=&#34;arblibjl&#34;&gt;&lt;a href=&#34;https://github.com/kalmarek/Arblib.jl&#34;&gt;Arblib.jl&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Arblib is a Julia package in the public repository which aims to be a&#xA;thin and efficient wrapper around &lt;a href=&#34;https://www.arblib.org/&#34;&gt;Arb&lt;/a&gt; - a C&#xA;library for arbitrary-precision ball arithmetic. I&amp;rsquo;m one of the main&#xA;developers, together with Marek Kaluba and Sascha Timme.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Welcome on Joel Dahne</title>
+		<link>https://dahne.eu/</link>
+		<description>Recent content in Welcome on Joel Dahne</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<atom:link href="https://dahne.eu/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Publications</title>
+				<link>https://dahne.eu/publications/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://dahne.eu/publications/</guid>
+				<description>&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.48550/arXiv.2609.08985&#34;&gt;Non-uniqueness for the Complex Ginzburg-Landau&#xA;Equation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;With Vladimír Šverák&lt;/p&gt;&#xA;&lt;p&gt;(2026)&#xA;[&lt;a href=&#34;https://doi.org/10.48550/arXiv.2609.08985&#34;&gt;arXiv&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://github.com/Joel-Dahne/CGL2.jl&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.48550/arXiv.2601.16285&#34;&gt;Monotonicity of the first Dirichlet eigenvalue of regular&#xA;polygons&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;With Javier Gómez-Serrano and Joana Pech-Alberich&lt;/p&gt;&#xA;&lt;p&gt;Submitted (2026)&#xA;[&lt;a href=&#34;https://doi.org/10.48550/arXiv.2601.16285&#34;&gt;arXiv&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://doi.org/10.5281/zenodo.22885735&#34;&gt;Code (Zenodo)&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://github.com/Joel-Dahne/SpectralRegularPolygon.jl&#34;&gt;Code (GitHub)&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2410.05480&#34;&gt;Self-Similar Singular Solutions to the Nonlinear Schrödinger and&#xA;the Complex Ginzburg-Landau Equations&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;With Jordi-Lluís Figueras&lt;/p&gt;&#xA;&lt;p&gt;Submitted (2024)&#xA;[&lt;a href=&#34;https://arxiv.org/abs/2410.05480&#34;&gt;arXiv&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://github.com/Joel-Dahne/CGL.jl&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.jde.2024.05.016&#34;&gt;Highest cusped waves for the fractional KdV&#xA;equations&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Journal of Differential Equations, 401, 550-670 (2024)&#xA;[&lt;a href=&#34;https://arxiv.org/abs/2308.16579&#34;&gt;arXiv&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://doi.org/10.1016/j.jde.2024.05.016&#34;&gt;DOI&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://github.com/Joel-Dahne/HighestCuspedWave.jl&#34;&gt;Code&lt;/a&gt;]&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Software</title>
+				<link>https://dahne.eu/software/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://dahne.eu/software/</guid>
+				<description>&lt;p&gt;In my research I mostly work with the &lt;a href=&#34;https://julialang.org/&#34;&gt;Julia&lt;/a&gt;&#xA;programming language and most of the software I produce tends to be&#xA;different kinds of Julia packages. You can find most of my packages on&#xA;&lt;a href=&#34;https://github.com/Joel-Dahne&#34;&gt;GitHub&lt;/a&gt;, some of the more important&#xA;ones are also listed below.&lt;/p&gt;&#xA;&lt;h1 id=&#34;general-purpose-packages&#34;&gt;General purpose packages&lt;/h1&gt;&#xA;&lt;p&gt;These packages are intended to be used in multiple settings and could&#xA;potentially be useful for other people as well.&lt;/p&gt;&#xA;&lt;h2 id=&#34;arblibjl&#34;&gt;&lt;a href=&#34;https://github.com/kalmarek/Arblib.jl&#34;&gt;Arblib.jl&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Arblib is a Julia package in the public repository which aims to be a&#xA;thin and efficient wrapper around the arbitrary-precision ball&#xA;arithmetic of &lt;a href=&#34;https://flintlib.org/&#34;&gt;FLINT&lt;/a&gt; (formerly the separate&#xA;library &lt;a href=&#34;https://www.arblib.org/&#34;&gt;Arb&lt;/a&gt;). I&amp;rsquo;m one of the main&#xA;developers, together with Marek Kaluba and Sascha Timme.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>Teaching</title>
+				<link>https://dahne.eu/teaching/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>https://dahne.eu/teaching/</guid>
+				<description>&lt;h2 id=&#34;computer-assisted-proofs-and-rigorous-numerics&#34;&gt;&lt;a href=&#34;https://dahne.eu/CAPCourseS26.jl/dev/&#34;&gt;Computer-assisted proofs and rigorous numerics&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Topics course I gave at the University of Minnesota, Spring 2026.&lt;/p&gt;&#xA;&lt;p&gt;The course gave an introduction to computer-assisted proofs in&#xA;analysis and the rigorous numerics they build on. It was split into&#xA;three parts: an introduction to computer-assisted proofs, an&#xA;introduction to rigorous numerics, and computer-assisted proofs in&#xA;practice. The lecture notes and lab material are publicly available.&lt;/p&gt;&#xA;&lt;p&gt;[&lt;a href=&#34;https://dahne.eu/CAPCourseS26.jl/dev/&#34;&gt;Course material&lt;/a&gt;]&#xA;[&lt;a href=&#34;https://github.com/Joel-Dahne/CAPCourseS26.jl&#34;&gt;GitHub&lt;/a&gt;]&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
